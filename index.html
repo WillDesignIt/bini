@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primer Documento HTML</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bini – Inicio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>¡Este es un párrafo de ejemplo en mi documento HTML.</p>
+  <header>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Sobre Bini</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Bienvenido a Bini</h1>
+      <p>El software que te ayuda a desechar tus residuos de forma correcta, rápida y responsable.</p>
+      <a class="cta" href="#como-funciona">Cómo funciona</a>
+    </section>
+
+    <section id="como-funciona" class="features">
+      <h2>¿Cómo te ayuda Bini?</h2>
+      <ul>
+        <li><strong>Escanea códigos:</strong> Usa tu cámara para identificar cualquier producto.</li>
+        <li><strong>Clasificación instantánea:</strong> Bini te dice si va a reciclaje, compostaje o basura general.</li>
+        <li><strong>Puntos de reciclaje:</strong> Ubicamos lugares cercanos donde puedas desechar correctamente.</li>
+      </ul>
+    </section>
+
+    <section class="benefits">
+      <h2>¿Por qué usar Bini?</h2>
+      <p>Porque reciclar no debería ser complicado. Bini simplifica la decisión y te guía paso a paso, ayudando al planeta mientras haces tu día a día más fácil.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Bini. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,50 @@
+/* ---------------------------------------------
+   🎨 DESIGN TOKENS — PALETA PRINCIPAL
+   --------------------------------------------- */
+
+:root {
+  --lavender:   #D3C3DA;
+  --deep-teal:  #0E3E3B;
+  --kiwi:       #DFF32D;
+  --sand:       #F1DFBC;
+  --midnight:   #040E15;
+  --mint:       #D9FAEE;
+  --soft-gray:  #D5DADC;
+  --ice:        #E7FAFA;
+
+  /* Sistema de colores para UI */
+  --color-bg: var(--midnight);
+  --color-bg-light: var(--ice);
+  --color-text: #ffffff;
+  --color-accent: var(--kiwi);
+
+  /* Tipografía base */
+  --font-family: "Inter", "Helvetica Neue", sans-serif;
+  --font-size-base: 16px;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+
+  /* Radius */
+  --radius: 12px;
+
+  /* Sombra ligera */
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------------------------------------------
+   📱 RESET MODERNO
+   --------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
